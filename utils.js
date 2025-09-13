@@ -40,3 +40,8 @@ export async function InstallGlobalCommand(appId, command) {
         console.log(err);
     }
 }
+
+export function getRandomEmoji() {
+    const emojiList = ['😭','😄','😌','🤓','😎','😤','🤖','😶‍🌫️','🌏','📸','💿','👋','🌊','✨'];
+    return emojiList[Math.floor(Math.random() * emojiList.length)];
+}
