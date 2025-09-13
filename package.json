@@ -1,0 +1,25 @@
+{
+  "name": "hello-world-app",
+  "version": "1.0.0",
+  "description": "\"Discord hello world app\"",
+  "main": "hello-world.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "start": "node hello-world.js",
+    "register": "node commands.js",
+    "test": "nodemon hello-world.js"
+  },
+  "author": "Unidirectrix",
+  "license": "MIT",
+  "dependencies": {
+    "discord-interactions": "^4.3.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
